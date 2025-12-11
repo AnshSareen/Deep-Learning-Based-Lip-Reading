@@ -1,0 +1,40 @@
+========================================
+LIP READING API - QUICK START (Windows)
+========================================
+
+PREREQUISITES:
+- Python 3.9+ installed
+- NVIDIA GPU with CUDA support
+- 2GB free disk space
+
+SETUP STEPS:
+
+1. Open Command Prompt as Administrator
+
+2. Navigate to backend folder:
+   cd C:\path\to\backend
+
+3. Create virtual environment:
+   python -m venv venv
+
+4. Activate virtual environment:
+   venv\Scripts\activate.bat
+
+5. Install dependencies:
+   pip install -r requirements.txt
+
+6. Start the server:
+   python -m uvicorn app.main:app --host 0.0.0.0 --port 8000 --reload
+
+7. Test in browser:
+   http://localhost:8000/api/docs
+
+TROUBLESHOOTING:
+
+- CUDA Error: Install NVIDIA CUDA Toolkit
+- Port in use: Change port to 8001
+- Module errors: Reinstall requirements.txt
+
+For detailed instructions, see SETUP_WINDOWS.md
+
+========================================

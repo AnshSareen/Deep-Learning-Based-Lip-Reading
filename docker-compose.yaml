@@ -1,0 +1,81 @@
+version: '3.9'
+
+services:
+  backend:
+    build:
+      context: ./backend
+      dockerfile: docker/Dockerfile
+    container_name: lip-reading-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ENVIRONMENT=production
+      - DEBUG=False
+      - HOST=0.0.0.0
+      - PORT=8000
+      - DATABASE_URL=postgresql://lipreading:secure_password@postgres:5432/lipreading
+      - CELERY_BROKER_URL=redis://redis:6379/0
+      - USE_GPU=False
+    volumes:
+      - ./backend/uploads:/app/uploads
+      - ./backend/logs:/app/logs
+    depends_on:
+      - postgres
+      - redis
+    networks:
+      - lip-reading-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/health/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: lip-reading-frontend
+    ports:
+      - "5173:5173"
+    environment:
+      - VITE_API_URL=http://localhost:8000
+    depends_on:
+      - backend
+    networks:
+      - lip-reading-network
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: lip-reading-postgres
+    environment:
+      POSTGRES_USER: lipreading
+      POSTGRES_PASSWORD: secure_password
+      POSTGRES_DB: lipreading
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - lip-reading-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U lipreading"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  redis:
+    image: redis:7-alpine
+    container_name: lip-reading-redis
+    networks:
+      - lip-reading-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  postgres_data:
+
+networks:
+  lip-reading-network:
+    driver: bridge

@@ -1,0 +1,41 @@
+========================================
+LIP READING FRONTEND - QUICK START
+========================================
+
+PREREQUISITES:
+- Node.js 16+ installed
+- Backend running on port 8000
+
+SETUP STEPS:
+
+1. Open Command Prompt
+
+2. Navigate to frontend:
+   cd C:\Projects\lipreading_model_deployment\frontend
+
+3. Install dependencies:
+   npm install
+
+4. Start development server:
+   npm run dev
+
+5. Open browser:
+   http://localhost:5173
+
+PRODUCTION BUILD:
+
+1. Build:
+   npm run build
+
+2. Output folder:
+   dist/
+
+3. Deploy dist/ folder to IIS/Nginx
+
+TROUBLESHOOTING:
+
+- Port in use: Set PORT=3000 && npm run dev
+- Cannot connect: Check backend is running
+- Module errors: Delete node_modules and npm install
+
+========================================

@@ -1,0 +1,710 @@
+2025-12-07 14:19:08 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:19:08 - lip_reading - WARNING - ⚠️  Model not found: app/ml_models/model_deploy.torchscript
+2025-12-07 14:19:08 - lip_reading - WARNING - ⚠️  Model will not be loaded. API will work but inference will fail.
+2025-12-07 14:19:21 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:19:21 - lip_reading - WARNING - ⚠️  Model not found: app/ml_models/model_deploy.torchscript
+2025-12-07 14:19:21 - lip_reading - WARNING - ⚠️  Model will not be loaded. API will work but inference will fail.
+2025-12-07 14:19:21 - lip_reading - INFO - ==================================================
+2025-12-07 14:19:21 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:19:21 - lip_reading - INFO - Environment: development
+2025-12-07 14:19:21 - lip_reading - INFO - Debug: True
+2025-12-07 14:19:21 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:19:21 - lip_reading - INFO - ==================================================
+2025-12-07 14:19:41 - lip_reading - INFO - GET / - Status: 200 - Time: 0.000s
+2025-12-07 14:20:19 - lip_reading - INFO - 🛑 Lip Reading API Shutting Down
+2025-12-07 14:20:21 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:20:21 - lip_reading - WARNING - ⚠️  Model not found: app/ml_models/model_deploy.torchscript
+2025-12-07 14:20:21 - lip_reading - WARNING - ⚠️  Model will not be loaded. API will work but inference will fail.
+2025-12-07 14:20:21 - lip_reading - INFO - ==================================================
+2025-12-07 14:20:21 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:20:21 - lip_reading - INFO - Environment: development
+2025-12-07 14:20:21 - lip_reading - INFO - Debug: True
+2025-12-07 14:20:21 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:20:21 - lip_reading - INFO - ==================================================
+2025-12-07 14:20:32 - lip_reading - INFO - GET /health - Status: 404 - Time: 0.000s
+2025-12-07 14:20:36 - lip_reading - INFO - HEAD /api/docs - Status: 200 - Time: 0.000s
+2025-12-07 14:20:37 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-07 14:20:37 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-07 14:20:49 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-07 14:21:13 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-07 14:21:13 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-07 14:21:27 - lip_reading - INFO - 🛑 Lip Reading API Shutting Down
+2025-12-07 14:21:29 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:21:29 - lip_reading - WARNING - ⚠️  Model not found: app/ml_models/model_deploy.torchscript
+2025-12-07 14:21:29 - lip_reading - WARNING - ⚠️  Model will not be loaded. API will work but inference will fail.
+2025-12-07 14:21:29 - lip_reading - INFO - ==================================================
+2025-12-07 14:21:29 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:21:29 - lip_reading - INFO - Environment: development
+2025-12-07 14:21:29 - lip_reading - INFO - Debug: True
+2025-12-07 14:21:29 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:21:29 - lip_reading - INFO - ==================================================
+2025-12-07 14:21:51 - lip_reading - INFO - GET /api/health/live - Status: 200 - Time: 0.000s
+2025-12-07 14:26:07 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:26:07 - lip_reading - INFO - ✓ Loaded model: app/ml_models/model_deploy.torchscript
+2025-12-07 14:26:07 - lip_reading - WARNING - ⚠️  Character mapping not found: app/ml_models/idx2char.json
+2025-12-07 14:27:11 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:27:11 - lip_reading - INFO - ✓ Loaded model: app/ml_models/model_deploy.torchscript
+2025-12-07 14:27:11 - lip_reading - INFO - ✓ Loaded character mapping
+2025-12-07 14:27:29 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:27:29 - lip_reading - INFO - ✓ Loaded model: app/ml_models/model_deploy.torchscript
+2025-12-07 14:27:29 - lip_reading - INFO - ✓ Loaded character mapping
+2025-12-07 14:27:29 - lip_reading - INFO - ==================================================
+2025-12-07 14:27:29 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:27:29 - lip_reading - INFO - Environment: development
+2025-12-07 14:27:29 - lip_reading - INFO - Debug: True
+2025-12-07 14:27:29 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:27:29 - lip_reading - INFO - ==================================================
+2025-12-07 14:27:43 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-07 14:28:10 - lip_reading - INFO - GET /api/health/ready - Status: 200 - Time: 0.000s
+2025-12-07 14:28:11 - lip_reading - INFO - GET / - Status: 200 - Time: 0.000s
+2025-12-07 14:28:33 - lip_reading - INFO - ✓ Video uploaded: video_20251207_142833_cb4da0e5.mp4
+2025-12-07 14:28:33 - lip_reading - INFO - POST /api/videos/upload - Status: 200 - Time: 0.224s
+2025-12-07 14:28:33 - lip_reading - INFO - Starting analysis of uploads/videos/video_20251207_142833_cb4da0e5.mp4
+2025-12-07 14:28:36 - lip_reading - INFO - ✓ Extracted 3703 frames from 3703 total
+2025-12-07 14:28:46 - lip_reading - INFO - ✓ Extracted 1852 lip frames from 3703 total frames
+2025-12-07 14:28:46 - lip_reading - ERROR - Analysis error: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (75,) + inhomogeneous part.
+2025-12-07 14:28:46 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765097913_video_20251207_142833_cb4da0e5.mp4 - Status: 500 - Time: 13.208s
+2025-12-07 14:28:46 - lip_reading - INFO - Starting analysis of uploads/videos/video_20251207_142833_cb4da0e5.mp4
+2025-12-07 14:28:49 - lip_reading - INFO - ✓ Extracted 3703 frames from 3703 total
+2025-12-07 14:28:59 - lip_reading - INFO - ✓ Extracted 1852 lip frames from 3703 total frames
+2025-12-07 14:28:59 - lip_reading - ERROR - Analysis error: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (75,) + inhomogeneous part.
+2025-12-07 14:28:59 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765097913_video_20251207_142833_cb4da0e5.mp4 - Status: 500 - Time: 13.118s
+2025-12-07 14:29:52 - lip_reading - INFO - 🛑 Lip Reading API Shutting Down
+2025-12-07 14:29:55 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:29:55 - lip_reading - INFO - ✓ Loaded model: app/ml_models/model_deploy.torchscript
+2025-12-07 14:29:55 - lip_reading - INFO - ✓ Loaded character mapping
+2025-12-07 14:29:55 - lip_reading - INFO - ==================================================
+2025-12-07 14:29:55 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:29:55 - lip_reading - INFO - Environment: development
+2025-12-07 14:29:55 - lip_reading - INFO - Debug: True
+2025-12-07 14:29:55 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:29:55 - lip_reading - INFO - ==================================================
+2025-12-07 14:30:23 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-07 14:30:23 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-07 14:30:24 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-07 14:30:24 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-07 14:30:33 - lip_reading - INFO - ✓ Video uploaded: video_20251207_143033_a0af5d7a.mp4
+2025-12-07 14:30:33 - lip_reading - INFO - POST /api/videos/upload - Status: 200 - Time: 0.193s
+2025-12-07 14:30:33 - lip_reading - INFO - Starting analysis of uploads/videos/video_20251207_143033_a0af5d7a.mp4
+2025-12-07 14:30:36 - lip_reading - INFO - ✓ Extracted 3703 frames from 3703 total
+2025-12-07 14:30:46 - lip_reading - INFO - ✓ Extracted 1852 lip frames from 3703 total frames
+2025-12-07 14:30:46 - lip_reading - ERROR - ✗ Inference failed: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__.py", line 38, in forward
+    input1 = torch.view((backend).forward(input0, ), [_1, _3, -1])
+    _7 = (dropout).forward((fc).forward(input1, ), )
+    _8 = (layer_norm).forward((lstm).forward(_7, ), )
+                               ~~~~~~~~~~~~~ <--- HERE
+    _9 = torch.permute((classifier).forward(_8, ), [1, 0, 2])
+    return _9
+  File "code/__torch__/torch/nn/modules/rnn.py", line 42, in forward
+    max_batch_size = ops.prim.NumToTensor(torch.size(argument_1, 0))
+    _0 = int(max_batch_size)
+    hx = torch.zeros([4, int(max_batch_size), 512], dtype=6, layout=None, device=torch.device("cuda:0"), pin_memory=False)
+         ~~~~~~~~~~~ <--- HERE
+    hx0 = torch.zeros([4, _0, 512], dtype=6, layout=None, device=torch.device("cuda:0"), pin_memory=False)
+    _1 = [hx, hx0]
+
+Traceback of TorchScript, original code (most recent call last):
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/rnn.py(1086): forward
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1741): _slow_forward
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1762): _call_impl
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1751): _wrapped_call_impl
+/home/akaushish/Desktop/ansh-project/train_full.py(174): forward
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1741): _slow_forward
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1762): _call_impl
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1751): _wrapped_call_impl
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/jit/_trace.py(1279): trace_module
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/jit/_trace.py(696): _trace_impl
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/jit/_trace.py(1002): trace
+/home/akaushish/Desktop/ansh-project/train_full.py(325): export_model
+/home/akaushish/Desktop/ansh-project/train_full.py(449): train
+/home/akaushish/Desktop/ansh-project/train_full.py(481): main
+/home/akaushish/Desktop/ansh-project/train_full.py(485): <module>
+RuntimeError: Could not run 'aten::empty.memory_format' with arguments from the 'CUDA' backend. This could be because the operator doesn't exist for this backend, or was omitted during the selective/custom build process (if using custom build). If you are a Facebook employee using PyTorch on mobile, please visit https://fburl.com/ptmfixes for possible resolutions. 'aten::empty.memory_format' is only available for these backends: [CPU, MPS, Meta, QuantizedCPU, QuantizedMeta, MkldnnCPU, SparseCPU, SparseMeta, SparseCsrCPU, BackendSelect, Python, FuncTorchDynamicLayerBackMode, Functionalize, Named, Conjugate, Negative, ZeroTensor, ADInplaceOrView, AutogradOther, AutogradCPU, AutogradCUDA, AutogradHIP, AutogradXLA, AutogradMPS, AutogradIPU, AutogradXPU, AutogradHPU, AutogradVE, AutogradLazy, AutogradMTIA, AutogradPrivateUse1, AutogradPrivateUse2, AutogradPrivateUse3, AutogradMeta, AutogradNestedTensor, Tracer, AutocastCPU, AutocastCUDA, FuncTorchBatched, FuncTorchVmapMode, Batched, VmapMode, FuncTorchGradWrapper, PythonTLSSnapshot, FuncTorchDynamicLayerFrontMode, PreDispatch, PythonDispatcher].
+
+CPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterCPU.cpp:31188 [kernel]
+MPS: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterMPS.cpp:25941 [kernel]
+Meta: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterMeta.cpp:26829 [kernel]
+QuantizedCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterQuantizedCPU.cpp:944 [kernel]
+QuantizedMeta: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterQuantizedMeta.cpp:105 [kernel]
+MkldnnCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterMkldnnCPU.cpp:515 [kernel]
+SparseCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterSparseCPU.cpp:1387 [kernel]
+SparseMeta: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterSparseMeta.cpp:249 [kernel]
+SparseCsrCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterSparseCsrCPU.cpp:1135 [kernel]
+BackendSelect: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterBackendSelect.cpp:742 [kernel]
+Python: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:153 [backend fallback]
+FuncTorchDynamicLayerBackMode: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/DynamicLayer.cpp:498 [backend fallback]
+Functionalize: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/FunctionalizeFallbackKernel.cpp:290 [backend fallback]
+Named: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/NamedRegistrations.cpp:7 [backend fallback]
+Conjugate: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/ConjugateFallback.cpp:21 [kernel]
+Negative: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/NegateFallback.cpp:23 [kernel]
+ZeroTensor: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/ZeroTensorFallback.cpp:90 [kernel]
+ADInplaceOrView: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:86 [backend fallback]
+AutogradOther: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradCUDA: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradHIP: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradXLA: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradMPS: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradIPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradXPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradHPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradVE: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradLazy: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradMTIA: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradPrivateUse1: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradPrivateUse2: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradPrivateUse3: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradMeta: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradNestedTensor: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+Tracer: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/TraceType_2.cpp:17079 [kernel]
+AutocastCPU: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:382 [backend fallback]
+AutocastCUDA: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:249 [backend fallback]
+FuncTorchBatched: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/LegacyBatchingRegistrations.cpp:710 [backend fallback]
+FuncTorchVmapMode: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/VmapModeRegistrations.cpp:28 [backend fallback]
+Batched: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/LegacyBatchingRegistrations.cpp:1075 [backend fallback]
+VmapMode: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/VmapModeRegistrations.cpp:33 [backend fallback]
+FuncTorchGradWrapper: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/TensorWrapper.cpp:203 [backend fallback]
+PythonTLSSnapshot: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:161 [backend fallback]
+FuncTorchDynamicLayerFrontMode: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/DynamicLayer.cpp:494 [backend fallback]
+PreDispatch: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:165 [backend fallback]
+PythonDispatcher: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:157 [backend fallback]
+
+
+2025-12-07 14:30:46 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765098033_video_20251207_143033_a0af5d7a.mp4 - Status: 500 - Time: 12.825s
+2025-12-07 14:30:46 - lip_reading - INFO - Starting analysis of uploads/videos/video_20251207_143033_a0af5d7a.mp4
+2025-12-07 14:30:49 - lip_reading - INFO - ✓ Extracted 3703 frames from 3703 total
+2025-12-07 14:30:58 - lip_reading - INFO - ✓ Extracted 1852 lip frames from 3703 total frames
+2025-12-07 14:30:59 - lip_reading - ERROR - ✗ Inference failed: The following operation failed in the TorchScript interpreter.
+Traceback of TorchScript, serialized code (most recent call last):
+  File "code/__torch__.py", line 38, in forward
+    input1 = torch.view((backend).forward(input0, ), [_1, _3, -1])
+    _7 = (dropout).forward((fc).forward(input1, ), )
+    _8 = (layer_norm).forward((lstm).forward(_7, ), )
+                               ~~~~~~~~~~~~~ <--- HERE
+    _9 = torch.permute((classifier).forward(_8, ), [1, 0, 2])
+    return _9
+  File "code/__torch__/torch/nn/modules/rnn.py", line 42, in forward
+    max_batch_size = ops.prim.NumToTensor(torch.size(argument_1, 0))
+    _0 = int(max_batch_size)
+    hx = torch.zeros([4, int(max_batch_size), 512], dtype=6, layout=None, device=torch.device("cuda:0"), pin_memory=False)
+         ~~~~~~~~~~~ <--- HERE
+    hx0 = torch.zeros([4, _0, 512], dtype=6, layout=None, device=torch.device("cuda:0"), pin_memory=False)
+    _1 = [hx, hx0]
+
+Traceback of TorchScript, original code (most recent call last):
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/rnn.py(1086): forward
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1741): _slow_forward
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1762): _call_impl
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1751): _wrapped_call_impl
+/home/akaushish/Desktop/ansh-project/train_full.py(174): forward
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1741): _slow_forward
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1762): _call_impl
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/nn/modules/module.py(1751): _wrapped_call_impl
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/jit/_trace.py(1279): trace_module
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/jit/_trace.py(696): _trace_impl
+/home/akaushish/miniconda3/lib/python3.13/site-packages/torch/jit/_trace.py(1002): trace
+/home/akaushish/Desktop/ansh-project/train_full.py(325): export_model
+/home/akaushish/Desktop/ansh-project/train_full.py(449): train
+/home/akaushish/Desktop/ansh-project/train_full.py(481): main
+/home/akaushish/Desktop/ansh-project/train_full.py(485): <module>
+RuntimeError: Could not run 'aten::empty.memory_format' with arguments from the 'CUDA' backend. This could be because the operator doesn't exist for this backend, or was omitted during the selective/custom build process (if using custom build). If you are a Facebook employee using PyTorch on mobile, please visit https://fburl.com/ptmfixes for possible resolutions. 'aten::empty.memory_format' is only available for these backends: [CPU, MPS, Meta, QuantizedCPU, QuantizedMeta, MkldnnCPU, SparseCPU, SparseMeta, SparseCsrCPU, BackendSelect, Python, FuncTorchDynamicLayerBackMode, Functionalize, Named, Conjugate, Negative, ZeroTensor, ADInplaceOrView, AutogradOther, AutogradCPU, AutogradCUDA, AutogradHIP, AutogradXLA, AutogradMPS, AutogradIPU, AutogradXPU, AutogradHPU, AutogradVE, AutogradLazy, AutogradMTIA, AutogradPrivateUse1, AutogradPrivateUse2, AutogradPrivateUse3, AutogradMeta, AutogradNestedTensor, Tracer, AutocastCPU, AutocastCUDA, FuncTorchBatched, FuncTorchVmapMode, Batched, VmapMode, FuncTorchGradWrapper, PythonTLSSnapshot, FuncTorchDynamicLayerFrontMode, PreDispatch, PythonDispatcher].
+
+CPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterCPU.cpp:31188 [kernel]
+MPS: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterMPS.cpp:25941 [kernel]
+Meta: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterMeta.cpp:26829 [kernel]
+QuantizedCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterQuantizedCPU.cpp:944 [kernel]
+QuantizedMeta: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterQuantizedMeta.cpp:105 [kernel]
+MkldnnCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterMkldnnCPU.cpp:515 [kernel]
+SparseCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterSparseCPU.cpp:1387 [kernel]
+SparseMeta: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterSparseMeta.cpp:249 [kernel]
+SparseCsrCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterSparseCsrCPU.cpp:1135 [kernel]
+BackendSelect: registered at /Users/runner/work/pytorch/pytorch/pytorch/build/aten/src/ATen/RegisterBackendSelect.cpp:742 [kernel]
+Python: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:153 [backend fallback]
+FuncTorchDynamicLayerBackMode: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/DynamicLayer.cpp:498 [backend fallback]
+Functionalize: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/FunctionalizeFallbackKernel.cpp:290 [backend fallback]
+Named: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/NamedRegistrations.cpp:7 [backend fallback]
+Conjugate: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/ConjugateFallback.cpp:21 [kernel]
+Negative: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/native/NegateFallback.cpp:23 [kernel]
+ZeroTensor: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/ZeroTensorFallback.cpp:90 [kernel]
+ADInplaceOrView: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/VariableFallbackKernel.cpp:86 [backend fallback]
+AutogradOther: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradCPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradCUDA: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradHIP: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradXLA: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradMPS: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradIPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradXPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradHPU: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradVE: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradLazy: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradMTIA: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradPrivateUse1: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradPrivateUse2: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradPrivateUse3: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradMeta: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+AutogradNestedTensor: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/VariableType_2.cpp:18694 [autograd kernel]
+Tracer: registered at /Users/runner/work/pytorch/pytorch/pytorch/torch/csrc/autograd/generated/TraceType_2.cpp:17079 [kernel]
+AutocastCPU: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:382 [backend fallback]
+AutocastCUDA: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/autocast_mode.cpp:249 [backend fallback]
+FuncTorchBatched: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/LegacyBatchingRegistrations.cpp:710 [backend fallback]
+FuncTorchVmapMode: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/VmapModeRegistrations.cpp:28 [backend fallback]
+Batched: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/LegacyBatchingRegistrations.cpp:1075 [backend fallback]
+VmapMode: fallthrough registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/VmapModeRegistrations.cpp:33 [backend fallback]
+FuncTorchGradWrapper: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/TensorWrapper.cpp:203 [backend fallback]
+PythonTLSSnapshot: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:161 [backend fallback]
+FuncTorchDynamicLayerFrontMode: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/functorch/DynamicLayer.cpp:494 [backend fallback]
+PreDispatch: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:165 [backend fallback]
+PythonDispatcher: registered at /Users/runner/work/pytorch/pytorch/pytorch/aten/src/ATen/core/PythonFallbackKernel.cpp:157 [backend fallback]
+
+
+2025-12-07 14:30:59 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765098033_video_20251207_143033_a0af5d7a.mp4 - Status: 500 - Time: 12.779s
+2025-12-07 14:31:59 - lip_reading - INFO - 🛑 Lip Reading API Shutting Down
+2025-12-07 14:32:01 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:32:01 - lip_reading - ERROR - ✗ Error loading model: map_location should be either None, string or torch.device, but got type: <class 'function'>
+2025-12-07 14:32:01 - lip_reading - INFO - ==================================================
+2025-12-07 14:32:01 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:32:01 - lip_reading - INFO - Environment: development
+2025-12-07 14:32:01 - lip_reading - INFO - Debug: True
+2025-12-07 14:32:01 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:32:01 - lip_reading - INFO - ==================================================
+2025-12-07 14:32:33 - lip_reading - INFO - 🛑 Lip Reading API Shutting Down
+2025-12-07 14:32:35 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:32:35 - lip_reading - ERROR - ✗ Error loading model: map_location should be either None, string or torch.device, but got type: <class 'function'>
+2025-12-07 14:32:35 - lip_reading - INFO - ==================================================
+2025-12-07 14:32:35 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:32:35 - lip_reading - INFO - Environment: development
+2025-12-07 14:32:35 - lip_reading - INFO - Debug: True
+2025-12-07 14:32:35 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:32:35 - lip_reading - INFO - ==================================================
+2025-12-07 14:32:57 - lip_reading - INFO - 🛑 Lip Reading API Shutting Down
+2025-12-07 14:32:59 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:32:59 - lip_reading - ERROR - ✗ Error loading model: map_location should be either None, string or torch.device, but got type: <class 'function'>
+2025-12-07 14:32:59 - lip_reading - INFO - ==================================================
+2025-12-07 14:32:59 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:32:59 - lip_reading - INFO - Environment: development
+2025-12-07 14:32:59 - lip_reading - INFO - Debug: True
+2025-12-07 14:32:59 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:32:59 - lip_reading - INFO - ==================================================
+2025-12-07 14:33:09 - lip_reading - INFO - 🛑 Lip Reading API Shutting Down
+2025-12-07 14:33:11 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:33:11 - lip_reading - INFO - ✓ Loaded model: app/ml_models/model_deploy.torchscript
+2025-12-07 14:33:11 - lip_reading - INFO - ✓ Loaded character mapping
+2025-12-07 14:33:11 - lip_reading - INFO - ==================================================
+2025-12-07 14:33:11 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:33:11 - lip_reading - INFO - Environment: development
+2025-12-07 14:33:11 - lip_reading - INFO - Debug: True
+2025-12-07 14:33:11 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:33:11 - lip_reading - INFO - ==================================================
+2025-12-07 14:35:19 - lip_reading - INFO - 🛑 Lip Reading API Shutting Down
+2025-12-07 14:35:23 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:35:23 - lip_reading - INFO - ✓ Loaded model: app/ml_models/model_deploy.torchscript
+2025-12-07 14:35:23 - lip_reading - INFO - ✓ Loaded character mapping
+2025-12-07 14:35:23 - lip_reading - INFO - ==================================================
+2025-12-07 14:35:23 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:35:23 - lip_reading - INFO - Environment: development
+2025-12-07 14:35:23 - lip_reading - INFO - Debug: True
+2025-12-07 14:35:23 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:35:23 - lip_reading - INFO - ==================================================
+2025-12-07 14:35:44 - lip_reading - INFO - 🛑 Lip Reading API Shutting Down
+2025-12-07 14:35:46 - lip_reading - INFO - ✓ Using CPU
+2025-12-07 14:35:46 - lip_reading - INFO - ✓ Loaded model: app/ml_models/model_deploy.torchscript
+2025-12-07 14:35:46 - lip_reading - INFO - ✓ Loaded character mapping
+2025-12-07 14:35:46 - lip_reading - INFO - ==================================================
+2025-12-07 14:35:46 - lip_reading - INFO - 🚀 Lip Reading API Starting
+2025-12-07 14:35:46 - lip_reading - INFO - Environment: development
+2025-12-07 14:35:46 - lip_reading - INFO - Debug: True
+2025-12-07 14:35:46 - lip_reading - INFO - GPU Available: False
+2025-12-07 14:35:46 - lip_reading - INFO - ==================================================
+2025-12-07 15:37:45 - lip_reading - INFO - ==================================================
+2025-12-07 15:37:45 - lip_reading - INFO - Environment: development
+2025-12-07 15:37:45 - lip_reading - INFO - Debug: True
+2025-12-07 15:37:45 - lip_reading - INFO - GPU Available: False
+2025-12-07 15:37:45 - lip_reading - INFO - ==================================================
+2025-12-07 15:40:29 - lip_reading - INFO - ==================================================
+2025-12-07 15:40:29 - lip_reading - INFO - Environment: development
+2025-12-07 15:40:29 - lip_reading - INFO - Debug: True
+2025-12-07 15:40:29 - lip_reading - INFO - GPU Available: False
+2025-12-07 15:40:29 - lip_reading - INFO - ==================================================
+2025-12-07 15:41:34 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-07 15:41:34 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-07 15:43:08 - lip_reading - INFO - POST /api/videos/upload - Status: 200 - Time: 0.195s
+2025-12-07 15:43:08 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251207_154307_b7d7e7a1.mp4
+2025-12-07 15:43:08 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765102388_video_20251207_154307_b7d7e7a1.mp4 - Status: 500 - Time: 0.841s
+2025-12-07 15:43:08 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251207_154307_b7d7e7a1.mp4
+2025-12-07 15:43:09 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765102388_video_20251207_154307_b7d7e7a1.mp4 - Status: 500 - Time: 0.421s
+2025-12-07 15:46:43 - lip_reading - INFO - ==================================================
+2025-12-07 15:46:43 - lip_reading - INFO - Environment: development
+2025-12-07 15:46:43 - lip_reading - INFO - Debug: True
+2025-12-07 15:46:43 - lip_reading - INFO - GPU Available: False
+2025-12-07 15:46:43 - lip_reading - INFO - ==================================================
+2025-12-07 15:46:53 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-07 15:46:53 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-07 15:46:57 - lip_reading - INFO - POST /api/videos/upload - Status: 200 - Time: 0.031s
+2025-12-07 15:46:57 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251207_154657_cc42ea12.mp4
+2025-12-07 15:46:58 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251207_154657_cc42ea12.mp4
+2025-12-07 15:46:58 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765102617_video_20251207_154657_cc42ea12.mp4 - Status: 500 - Time: 1.184s
+2025-12-07 15:46:58 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765102617_video_20251207_154657_cc42ea12.mp4 - Status: 500 - Time: 0.442s
+2025-12-07 17:29:28 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.086s
+2025-12-07 17:29:28 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.031s
+2025-12-08 01:37:31 - lip_reading - INFO - ==================================================
+2025-12-08 01:37:32 - lip_reading - INFO - Environment: development
+2025-12-08 01:37:32 - lip_reading - INFO - Debug: True
+2025-12-08 01:37:32 - lip_reading - INFO - GPU Available: False
+2025-12-08 01:37:32 - lip_reading - INFO - ==================================================
+2025-12-08 01:47:10 - lip_reading - INFO - ==================================================
+2025-12-08 01:47:10 - lip_reading - INFO - Environment: development
+2025-12-08 01:47:10 - lip_reading - INFO - Debug: True
+2025-12-08 01:47:10 - lip_reading - INFO - GPU Available: False
+2025-12-08 01:47:10 - lip_reading - INFO - ==================================================
+2025-12-08 01:47:42 - lip_reading - INFO - GET /api/docs - Status: 200 - Time: 0.001s
+2025-12-08 01:47:42 - lip_reading - INFO - GET /api/openapi.json - Status: 200 - Time: 0.007s
+2025-12-08 01:47:56 - lip_reading - INFO - GET /api/videos/demo - Status: 200 - Time: 0.006s
+2025-12-08 01:47:56 - lip_reading - INFO - GET /favicon.ico - Status: 404 - Time: 0.001s
+2025-12-08 01:56:51 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.075s
+2025-12-08 01:56:51 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 01:58:47 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 01:58:47 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 01:58:47 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 01:58:47 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 01:58:57 - lip_reading - INFO - POST /api/videos/upload - Status: 200 - Time: 0.474s
+2025-12-08 01:58:57 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_015857_cac80689.mpg
+2025-12-08 01:58:58 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_015857_cac80689.mpg
+2025-12-08 01:58:58 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765139337_video_20251208_015857_cac80689.mpg - Status: 500 - Time: 1.305s
+2025-12-08 01:58:58 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765139337_video_20251208_015857_cac80689.mpg - Status: 500 - Time: 0.583s
+2025-12-08 01:59:46 - lip_reading - INFO - GET /api/docs - Status: 200 - Time: 0.007s
+2025-12-08 01:59:46 - lip_reading - INFO - GET /api/docs - Status: 200 - Time: 0.000s
+2025-12-08 01:59:46 - lip_reading - INFO - GET /api/openapi.json - Status: 200 - Time: 0.008s
+2025-12-08 01:59:46 - lip_reading - INFO - GET /api/openapi.json - Status: 200 - Time: 0.001s
+2025-12-08 01:59:51 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 01:59:51 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 01:59:51 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 01:59:51 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 02:32:05 - lip_reading - INFO - ==================================================
+2025-12-08 02:32:05 - lip_reading - INFO - Environment: development
+2025-12-08 02:32:05 - lip_reading - INFO - Debug: True
+2025-12-08 02:32:05 - lip_reading - INFO - GPU Available: False
+2025-12-08 02:32:05 - lip_reading - INFO - ==================================================
+2025-12-08 02:33:08 - lip_reading - INFO - ==================================================
+2025-12-08 02:33:08 - lip_reading - INFO - Environment: development
+2025-12-08 02:33:08 - lip_reading - INFO - Debug: True
+2025-12-08 02:33:08 - lip_reading - INFO - GPU Available: False
+2025-12-08 02:33:08 - lip_reading - INFO - ==================================================
+2025-12-08 02:35:49 - lip_reading - INFO - ==================================================
+2025-12-08 02:35:49 - lip_reading - INFO - Environment: development
+2025-12-08 02:35:49 - lip_reading - INFO - Debug: True
+2025-12-08 02:35:49 - lip_reading - INFO - GPU Available: False
+2025-12-08 02:35:49 - lip_reading - INFO - ==================================================
+2025-12-08 02:40:21 - lip_reading - INFO - ==================================================
+2025-12-08 02:40:21 - lip_reading - INFO - Environment: development
+2025-12-08 02:40:21 - lip_reading - INFO - Debug: True
+2025-12-08 02:40:21 - lip_reading - INFO - GPU Available: False
+2025-12-08 02:40:21 - lip_reading - INFO - ==================================================
+2025-12-08 02:41:02 - lip_reading - INFO - ==================================================
+2025-12-08 02:41:02 - lip_reading - INFO - Environment: development
+2025-12-08 02:41:02 - lip_reading - INFO - Debug: True
+2025-12-08 02:41:02 - lip_reading - INFO - GPU Available: False
+2025-12-08 02:41:02 - lip_reading - INFO - ==================================================
+2025-12-08 02:45:08 - lip_reading - INFO - ==================================================
+2025-12-08 02:45:08 - lip_reading - INFO - Environment: development
+2025-12-08 02:45:08 - lip_reading - INFO - Debug: True
+2025-12-08 02:45:08 - lip_reading - INFO - GPU Available: False
+2025-12-08 02:45:08 - lip_reading - INFO - ==================================================
+2025-12-08 02:45:51 - lip_reading - INFO - ==================================================
+2025-12-08 02:45:51 - lip_reading - INFO - Environment: development
+2025-12-08 02:45:51 - lip_reading - INFO - Debug: True
+2025-12-08 02:45:51 - lip_reading - INFO - GPU Available: False
+2025-12-08 02:45:51 - lip_reading - INFO - ==================================================
+2025-12-08 02:47:19 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.004s
+2025-12-08 02:47:19 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 02:47:19 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 02:47:19 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 02:47:20 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 02:47:20 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 02:47:20 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 02:47:20 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 02:47:26 - lip_reading - INFO - POST /api/videos/demo/bbas1s.mpg - Status: 500 - Time: 0.708s
+2025-12-08 02:47:39 - lip_reading - INFO - POST /api/videos/demo/prap6p.mpg - Status: 500 - Time: 0.429s
+2025-12-08 02:49:09 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 500 - Time: 0.495s
+2025-12-08 02:50:11 - lip_reading - INFO - POST /api/videos/demo/bbad3n.mpg - Status: 500 - Time: 0.382s
+2025-12-08 02:51:32 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 02:51:32 - lip_reading - INFO - ==================================================
+2025-12-08 02:51:32 - lip_reading - INFO - Environment: development
+2025-12-08 02:51:32 - lip_reading - INFO - Debug: True
+2025-12-08 02:51:32 - lip_reading - INFO - GPU Available: False
+2025-12-08 02:51:32 - lip_reading - INFO - ==================================================
+2025-12-08 02:52:14 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 02:52:14 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 02:52:14 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 02:52:14 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 02:52:19 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 500 - Time: 0.992s
+2025-12-08 02:52:58 - lip_reading - INFO - POST /api/videos/demo/prap6p.mpg - Status: 500 - Time: 0.419s
+2025-12-08 03:02:02 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 03:02:02 - lip_reading - INFO - ==================================================
+2025-12-08 03:02:02 - lip_reading - INFO - Environment: development
+2025-12-08 03:02:02 - lip_reading - INFO - Debug: True
+2025-12-08 03:02:02 - lip_reading - INFO - GPU Available: True
+2025-12-08 03:02:02 - lip_reading - INFO - ==================================================
+2025-12-08 03:02:35 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.019s
+2025-12-08 03:02:35 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:02:43 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 2.916s
+2025-12-08 03:03:28 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.014s
+2025-12-08 03:03:28 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:03:41 - lip_reading - INFO - POST /api/videos/demo/sgbp4n.mpg - Status: 200 - Time: 1.302s
+2025-12-08 03:04:28 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.008s
+2025-12-08 03:04:28 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:05:40 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 1.264s
+2025-12-08 03:17:59 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.029s
+2025-12-08 03:17:59 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:18:02 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 03:18:02 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:18:10 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 1.012s
+2025-12-08 03:20:24 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 03:20:24 - lip_reading - INFO - ==================================================
+2025-12-08 03:20:24 - lip_reading - INFO - Environment: development
+2025-12-08 03:20:24 - lip_reading - INFO - Debug: True
+2025-12-08 03:20:24 - lip_reading - INFO - GPU Available: True
+2025-12-08 03:20:24 - lip_reading - INFO - ==================================================
+2025-12-08 03:20:54 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 03:20:54 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:21:00 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 03:21:01 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 1.806s
+2025-12-08 03:21:30 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:21:30 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:21:38 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 03:21:38 - lip_reading - INFO - POST /api/videos/demo/bbad3n.mpg - Status: 200 - Time: 0.669s
+2025-12-08 03:23:41 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 03:23:41 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 03:23:48 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 03:23:49 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 0.643s
+2025-12-08 03:24:59 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:24:59 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:26:21 - lip_reading - INFO - POST /api/videos/upload - Status: 200 - Time: 0.044s
+2025-12-08 03:26:21 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_032621_6a59e295.mpg
+2025-12-08 03:26:21 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 03:26:22 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765144581_video_20251208_032621_6a59e295.mpg - Status: 200 - Time: 0.636s
+2025-12-08 03:26:22 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_032621_6a59e295.mpg
+2025-12-08 03:26:22 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 03:26:22 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765144581_video_20251208_032621_6a59e295.mpg - Status: 200 - Time: 0.395s
+2025-12-08 03:29:07 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:29:07 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:29:53 - lip_reading - INFO - POST /api/videos/upload - Status: 200 - Time: 0.040s
+2025-12-08 03:29:53 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_032953_826b5db2.mpg
+2025-12-08 03:29:53 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 03:29:53 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_032953_826b5db2.mpg
+2025-12-08 03:29:54 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 03:29:54 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765144793_video_20251208_032953_826b5db2.mpg - Status: 200 - Time: 1.080s
+2025-12-08 03:29:54 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765144793_video_20251208_032953_826b5db2.mpg - Status: 200 - Time: 0.410s
+2025-12-08 03:33:44 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 03:33:44 - lip_reading - INFO - ==================================================
+2025-12-08 03:33:44 - lip_reading - INFO - Environment: development
+2025-12-08 03:33:44 - lip_reading - INFO - Debug: True
+2025-12-08 03:33:44 - lip_reading - INFO - GPU Available: True
+2025-12-08 03:33:44 - lip_reading - INFO - ==================================================
+2025-12-08 03:38:47 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 03:38:47 - lip_reading - INFO - ==================================================
+2025-12-08 03:38:47 - lip_reading - INFO - Environment: development
+2025-12-08 03:38:47 - lip_reading - INFO - Debug: True
+2025-12-08 03:38:47 - lip_reading - INFO - GPU Available: True
+2025-12-08 03:38:47 - lip_reading - INFO - ==================================================
+2025-12-08 03:46:24 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.030s
+2025-12-08 03:46:24 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 03:51:44 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 03:51:44 - lip_reading - INFO - ==================================================
+2025-12-08 03:51:44 - lip_reading - INFO - Environment: development
+2025-12-08 03:51:44 - lip_reading - INFO - Debug: True
+2025-12-08 03:51:44 - lip_reading - INFO - GPU Available: False
+2025-12-08 03:51:44 - lip_reading - INFO - ==================================================
+2025-12-08 03:52:24 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.028s
+2025-12-08 03:52:24 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 03:52:24 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 03:52:24 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 03:52:36 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 03:52:37 - lip_reading - INFO - POST /api/videos/demo/bbas1s.mpg - Status: 200 - Time: 2.885s
+2025-12-08 04:13:00 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 04:13:00 - lip_reading - INFO - ==================================================
+2025-12-08 04:13:00 - lip_reading - INFO - Environment: development
+2025-12-08 04:13:00 - lip_reading - INFO - Debug: True
+2025-12-08 04:13:00 - lip_reading - INFO - GPU Available: False
+2025-12-08 04:13:00 - lip_reading - INFO - ==================================================
+2025-12-08 04:13:18 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.024s
+2025-12-08 04:13:18 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:14:38 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 04:14:38 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 1.019s
+2025-12-08 04:15:06 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:06 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:07 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:07 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:15:07 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 04:15:07 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:15:08 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:08 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:09 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:15:09 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:09 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:09 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:09 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:09 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:15:10 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:15:10 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:15:27 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:27 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:15:28 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 04:15:28 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:29 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:15:29 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:15:30 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 04:15:30 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 04:18:31 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 04:18:31 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 0.637s
+2025-12-08 06:02:35 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 06:02:35 - lip_reading - INFO - ==================================================
+2025-12-08 06:02:36 - lip_reading - INFO - Environment: development
+2025-12-08 06:02:36 - lip_reading - INFO - Debug: True
+2025-12-08 06:02:36 - lip_reading - INFO - GPU Available: False
+2025-12-08 06:02:36 - lip_reading - INFO - ==================================================
+2025-12-08 06:02:59 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.053s
+2025-12-08 06:02:59 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.008s
+2025-12-08 06:02:59 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 06:03:16 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 06:03:16 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 06:03:16 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 06:03:17 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 06:03:17 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 06:03:17 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 06:03:28 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 06:03:32 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 5.745s
+2025-12-08 06:03:58 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 06:03:58 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 06:03:58 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.006s
+2025-12-08 06:06:17 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 06:06:17 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.005s
+2025-12-08 06:06:45 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 06:06:49 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 6.425s
+2025-12-08 06:45:59 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.057s
+2025-12-08 06:45:59 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 06:46:04 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 06:46:04 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 06:48:33 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 06:48:33 - lip_reading - INFO - ==================================================
+2025-12-08 06:48:33 - lip_reading - INFO - Environment: development
+2025-12-08 06:48:33 - lip_reading - INFO - Debug: True
+2025-12-08 06:48:33 - lip_reading - INFO - GPU Available: False
+2025-12-08 06:48:33 - lip_reading - INFO - ==================================================
+2025-12-08 06:51:14 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 06:51:14 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 06:51:29 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 06:51:35 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 7.924s
+2025-12-08 08:24:47 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 08:24:47 - lip_reading - INFO - ==================================================
+2025-12-08 08:24:47 - lip_reading - INFO - Environment: development
+2025-12-08 08:24:47 - lip_reading - INFO - Debug: True
+2025-12-08 08:24:47 - lip_reading - INFO - GPU Available: False
+2025-12-08 08:24:47 - lip_reading - INFO - ==================================================
+2025-12-08 08:25:03 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.010s
+2025-12-08 08:25:03 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 08:25:03 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 08:25:03 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 08:25:03 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 08:25:03 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 08:25:11 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 08:25:14 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 3.715s
+2025-12-08 08:25:43 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 08:25:43 - lip_reading - INFO - ==================================================
+2025-12-08 08:25:43 - lip_reading - INFO - Environment: development
+2025-12-08 08:25:43 - lip_reading - INFO - Debug: True
+2025-12-08 08:25:43 - lip_reading - INFO - GPU Available: False
+2025-12-08 08:25:43 - lip_reading - INFO - ==================================================
+2025-12-08 10:30:49 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 10:30:49 - lip_reading - INFO - ==================================================
+2025-12-08 10:30:49 - lip_reading - INFO - Environment: development
+2025-12-08 10:30:49 - lip_reading - INFO - Debug: True
+2025-12-08 10:30:49 - lip_reading - INFO - GPU Available: False
+2025-12-08 10:30:49 - lip_reading - INFO - ==================================================
+2025-12-08 10:31:01 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.005s
+2025-12-08 10:31:01 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 10:38:02 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 10:38:04 - lip_reading - INFO - POST /api/videos/demo/bbas1s.mpg - Status: 200 - Time: 3.186s
+2025-12-08 10:39:18 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 10:39:18 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 10:39:25 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 10:39:26 - lip_reading - INFO - POST /api/videos/demo/prap6p.mpg - Status: 200 - Time: 2.716s
+2025-12-08 11:23:53 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 11:23:53 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 11:45:52 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 11:45:56 - lip_reading - INFO - POST /api/videos/demo/prap6p.mpg - Status: 200 - Time: 4.872s
+2025-12-08 12:02:08 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:02:08 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:02:32 - lip_reading - INFO - POST /api/videos/upload - Status: 200 - Time: 0.104s
+2025-12-08 12:02:32 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_120232_93ae3d4b.mpg
+2025-12-08 12:02:33 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:02:38 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_120232_93ae3d4b.mpg
+2025-12-08 12:02:39 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:02:40 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765175552_video_20251208_120232_93ae3d4b.mpg - Status: 200 - Time: 8.089s
+2025-12-08 12:02:40 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765175552_video_20251208_120232_93ae3d4b.mpg - Status: 200 - Time: 1.636s
+2025-12-08 12:02:46 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:02:46 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:02:59 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:03:01 - lip_reading - INFO - POST /api/videos/demo/prap6p.mpg - Status: 200 - Time: 3.770s
+2025-12-08 12:26:02 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 12:26:02 - lip_reading - INFO - ==================================================
+2025-12-08 12:26:02 - lip_reading - INFO - Environment: development
+2025-12-08 12:26:02 - lip_reading - INFO - Debug: True
+2025-12-08 12:26:02 - lip_reading - INFO - GPU Available: False
+2025-12-08 12:26:02 - lip_reading - INFO - ==================================================
+2025-12-08 12:26:19 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:26:19 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:26:19 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:26:25 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 12:26:25 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:26:53 - lip_reading - INFO - Loaded model from: app\ml_models\model.pt
+2025-12-08 12:26:53 - lip_reading - INFO - ==================================================
+2025-12-08 12:26:53 - lip_reading - INFO - Environment: development
+2025-12-08 12:26:53 - lip_reading - INFO - Debug: True
+2025-12-08 12:26:53 - lip_reading - INFO - GPU Available: False
+2025-12-08 12:26:53 - lip_reading - INFO - ==================================================
+2025-12-08 12:27:01 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 12:27:01 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:27:15 - lip_reading - INFO - POST /api/videos/upload - Status: 200 - Time: 0.037s
+2025-12-08 12:27:15 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_122715_edff7a1c.mpg
+2025-12-08 12:27:17 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:27:23 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765177035_video_20251208_122715_edff7a1c.mpg - Status: 200 - Time: 7.125s
+2025-12-08 12:27:23 - lip_reading - INFO - Starting analysis of uploads\videos\video_20251208_122715_edff7a1c.mpg
+2025-12-08 12:27:25 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:27:25 - lip_reading - INFO - POST /api/videos/analyze/analysis_1765177035_video_20251208_122715_edff7a1c.mpg - Status: 200 - Time: 2.390s
+2025-12-08 12:28:13 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:28:13 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:28:22 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:28:24 - lip_reading - INFO - POST /api/videos/demo/prap6p.mpg - Status: 200 - Time: 3.445s
+2025-12-08 12:28:27 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:28:27 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:28:31 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:28:32 - lip_reading - INFO - POST /api/videos/demo/sgbp4n.mpg - Status: 200 - Time: 1.276s
+2025-12-08 12:28:34 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:28:34 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:28:38 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:28:38 - lip_reading - INFO - POST /api/videos/demo/sria7s.mpg - Status: 200 - Time: 1.423s
+2025-12-08 12:28:42 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:28:42 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:28:48 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:28:48 - lip_reading - INFO - POST /api/videos/demo/bbad3n.mpg - Status: 200 - Time: 1.522s
+2025-12-08 12:28:50 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:28:50 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:28:55 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:28:55 - lip_reading - INFO - POST /api/videos/demo/bbas1s.mpg - Status: 200 - Time: 1.402s
+2025-12-08 12:28:57 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:28:57 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:29:01 - lip_reading - INFO - Extracted 75 lip frames from 75 total frames
+2025-12-08 12:29:01 - lip_reading - INFO - POST /api/videos/demo/bwba7a.mpg - Status: 200 - Time: 1.681s
+2025-12-08 12:29:11 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:29:11 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:29:48 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:29:48 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.000s
+2025-12-08 12:36:27 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:36:27 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 12:45:42 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 12:45:42 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.002s
+2025-12-08 13:06:52 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.001s
+2025-12-08 13:06:52 - lip_reading - INFO - GET /api/health/ - Status: 200 - Time: 0.003s
