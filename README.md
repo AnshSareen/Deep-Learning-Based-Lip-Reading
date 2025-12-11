@@ -34,6 +34,7 @@ This package contains the complete lip reading system, including the trained mod
 *   **Input:** Grayscale video frames of lips (automatically cropped by the script).
 *   **Output:** Text transcription.
 *   **Performance:** ~5.6% Character Error Rate (CER) on test set.
+*   done
 
 ## 🛠️ Training (Optional)
 
