@@ -1,4 +1,4 @@
-# 👄 Deep Learning Based Lip Reading System
+# Deep Learning Based Lip Reading System
 
 ![Project Status](https://img.shields.io/badge/status-active-success.svg)
 ![Python](https://img.shields.io/badge/python-3.10+-blue.svg)
