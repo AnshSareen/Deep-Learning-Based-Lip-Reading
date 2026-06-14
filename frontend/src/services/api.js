@@ -46,6 +46,10 @@ export const videoAPI = {
     return api.post(`/api/videos/analyze/${analysisId}`);
   },
 
+  analyzeDemo: async (videoName) => {
+    return api.post(`/api/videos/demo/${videoName}`);
+  },
+
   getHistory: async (limit = 10, offset = 0) => {
     return api.get('/api/videos/history', {
       params: { limit, offset },

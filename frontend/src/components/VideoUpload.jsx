@@ -96,25 +96,17 @@ export default function VideoUpload({ onUploadSuccess }) {
     setIsLoading(true);
     try {
       if (selectedDemo) {
-        // Use demo video endpoint
+        // Use demo video endpoint (via configured API base URL)
         toast.loading('Analyzing demo video...', { toastId: 'analyzing' });
-        const response = await fetch(`http://localhost:8000/api/videos/demo/${selectedDemo.name}`, {
-          method: 'POST',
-        });
-        const data = await response.json();
+        const response = await videoAPI.analyzeDemo(selectedDemo.name);
 
         toast.dismiss('analyzing');
-
-        if (response.ok) {
-          toast.success('Analysis complete!');
-          onUploadSuccess({
-            analysisId: data.analysis_id,
-            filename: selectedDemo.name,
-            directResult: data,
-          });
-        } else {
-          toast.error(data.detail || 'Analysis failed');
-        }
+        toast.success('Analysis complete!');
+        onUploadSuccess({
+          analysisId: response.data.analysis_id,
+          filename: selectedDemo.name,
+          directResult: response.data,
+        });
       } else {
         // Upload file
         toast.loading('Uploading video...', { toastId: 'uploading' });

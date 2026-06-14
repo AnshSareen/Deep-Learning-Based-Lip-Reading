@@ -6,6 +6,7 @@ from pathlib import Path
 from app.config import settings
 from app.utils.logger import logger
 from typing import Tuple, Dict, Optional
+from app.ml_models.architecture import LipReadingModel, CONFIG
 
 BLANK_IDX = 0
 
@@ -96,7 +97,7 @@ def parse_align_file(align_path: Path) -> str:
     """
     Parse a .align file and extract the transcript.
     Format: <start_time> <end_time> <word>
-    Skip 'sil' (silence) entries.
+    Skip 'sil' (silence) and 'sp' (short pause) entries.
     """
     words = []
     with open(align_path, 'r') as f:
@@ -104,13 +105,13 @@ def parse_align_file(align_path: Path) -> str:
             parts = line.strip().split()
             if len(parts) >= 3:
                 word = parts[2]
-                if word.lower() != 'sil':  # Skip silence markers
+                if word.lower() not in ('sil', 'sp'):  # Skip silence / short-pause markers
                     words.append(word.lower())
     
     return ' '.join(words)
 
 class LipReadingInference:
-    def __init__(self):  # <-- FIX THIS (was __init**)
+    def __init__(self):
         self.device = self._setup_device()
         self.model = None
         self.idx2char = None
@@ -126,20 +127,46 @@ class LipReadingInference:
             logger.info("✓ Using CPU")
         return device
     
+
     def load_model(self) -> None:
-        """Load TorchScript model"""
+        """Load Model (Fixes TorchScript device mapping issues)"""
         try:
             model_path = settings.MODEL_PATH
             
+            # Fallback checks for model file
             if not model_path.exists():
-                logger.warning(f"Model not found: {model_path}")
-                logger.warning("Model will not be loaded. API will work but inference will fail.")
+                potential_paths = [
+                    Path("app/ml_models/model_deploy.torchscript.zip"),
+                    Path("app/ml_models/model_deploy.torchscript"),
+                ]
+                for p in potential_paths:
+                    if p.exists():
+                        model_path = p
+                        break
+            
+            if not model_path.exists():
+                logger.warning(f"Model not found at {model_path}")
                 self.model = None
                 return
 
-            self.model = torch.jit.load(str(model_path), map_location=self.device)
+            logger.info(f"Loading model from: {model_path}")
+            
+            # 1. Load the TorchScript container to get weights
+            jit_model = torch.jit.load(str(model_path), map_location=self.device)
+            
+            # 2. Instantiate the pure Python model
+            self.model = LipReadingModel(CONFIG)
+            
+            # 3. Transfer state dict (weights)
+            # Safe loading: filter out incompatible keys if any (though usually fine with tracing)
+            state_dict = jit_model.state_dict()
+            self.model.load_state_dict(state_dict)
+            
+            # 4. Move to correct device
+            self.model.to(self.device)
             self.model.eval()
-            logger.info(f"Loaded model from: {model_path}")
+            
+            logger.info("✓ Model loaded and weights transferred successfully")
             
             # Load character mapping
             if not settings.IDX2CHAR_PATH.exists():

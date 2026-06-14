@@ -65,7 +65,7 @@ def parse_align_file(align_path: Path) -> str:
     """
     Parse a .align file and extract the transcript.
     Format: <start_time> <end_time> <word>
-    Skip 'sil' (silence) entries.
+    Skip 'sil' (silence) and 'sp' (short pause) entries.
     """
     words = []
     with open(align_path, 'r') as f:
@@ -73,7 +73,7 @@ def parse_align_file(align_path: Path) -> str:
             parts = line.strip().split()
             if len(parts) >= 3:
                 word = parts[2]
-                if word.lower() != 'sil':  # Skip silence markers
+                if word.lower() not in ('sil', 'sp'):  # Skip silence / short-pause markers
                     words.append(word.lower())
     
     return ' '.join(words)
